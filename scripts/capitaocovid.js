@@ -1,6 +1,6 @@
 //0: pergunta principal; 1:Acreditar e apoiar os eventos e posicionamentos do Capitão Covid;2: Não acreditar nas baboseiras do Capitão Covid, 3: Comentário sobre a
 //escolha absurda; 4:Comentário sobre a escolha sensata 
-var SagaCapitao = [
+export var sagaCapitao = [
     [
         "O que fazer?",
         "Buscar apoio para espalhar suas mentiras",
@@ -23,4 +23,4 @@ var SagaCapitao = [
         "Ouvi dizer que as pessoas estão cada vez mais informadas e revoltadas contra o senhor...",
     ]
 
-]
+];
