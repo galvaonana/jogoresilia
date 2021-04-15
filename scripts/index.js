@@ -2,11 +2,14 @@ function game() {
     var status = true;
     var nome;
     var score = 0;
+
     const arrPersonagens = ["João Cidadão", "Drª Julia", "Capitão Covid"];
     var player = prompt('0 João Cidadão, 1 Dra Julia ou 2 Capitão Covid?', 'Escolha um número');
+
     alert('Olá, eu me chamo ' + arrPersonagens[player]);
-    localStorage.setItem('Personagem', nomeDoPersonagem);
-    var htmlElement = document.getElementById('telajogo');
+
+    var telaJogo = document.getElementById('telajogo');
+
     while (status == true) {
         // nome = prompt('Escolha seu personagem');
         if (nome === "João Cidadão") {
@@ -19,7 +22,7 @@ function game() {
         status = false;
     }
 
-    htmlElement.innerHTML = "Cuide-se e cuide dos demais"
+    telaJogo.innerHTML = "Cuide-se e cuide dos demais"
     console.log(nome)
 }
 
